@@ -3,6 +3,7 @@ A very accurate calculator for calculating the required VRAM of SFT
 
 
 **result sample:**
+```
 --- Example 1: QLoRA Fine-tuning (Llama 7B like) ---
   P_total_model_params: 7000000000.0
   P_lora_params: 50000000.0
@@ -154,3 +155,4 @@ A very accurate calculator for calculating the required VRAM of SFT
   total_estimated_gpu_memory_gb: 318.8260628700256
 
   --> Total Estimated GPU Memory for QwQ 32B SFT (per GPU): 318.83 GB
+```
